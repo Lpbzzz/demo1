@@ -1,10 +1,10 @@
 <template>
   <div>
     <h1>
-      {message}
+      {{message}}
     </h1>
     <h1>
-      {message2}
+      {{message2}}
     </h1>
   </div>
 </template>
