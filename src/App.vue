@@ -24,7 +24,7 @@ export default {
   methods: {},
   mounted() {
     axios
-      .get("http://chenkangwei.com:3000/users/getUserInfo?id=1")
+      .get("https://chenkangwei.com:3000/users/getUserInfo?id=1")
       .then(result => {
         this.$message.success("请求数据成功！");
         this.name = result.data.data.name;
